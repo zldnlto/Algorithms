@@ -5,3 +5,6 @@ function solution(my_string, num1, num2) {
   my_arr[num2] = idx1;
   return my_arr.join("");
 }
+
+
+Array.splice()
