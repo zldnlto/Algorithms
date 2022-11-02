@@ -1,4 +1,3 @@
-//소수를 빼자
 function isPrime(n) {
   if (n === 1) return false;
   for (let i = 2; i <= n - 1; i++) {
@@ -9,8 +8,8 @@ function isPrime(n) {
 
 function solution(n) {
   let count = 0;
-  for (let i = 2; i <= n; i++) {
-    isPrime(i) ? count++ : count;
+  for (let i = 1; i <= n; i++) {
+    isPrime(i) ? count : count++;
   }
   return count;
 }
